@@ -10,7 +10,7 @@ st.set_page_config(page_title="Eye Disease Classification", page_icon="👁️",
 st.markdown(ui.CSS, unsafe_allow_html=True)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(HERE, "model.keras")
+MODEL_PATH = os.path.join(HERE, "best_mobilenet_ft.keras")
 
 
 def model_problem():
